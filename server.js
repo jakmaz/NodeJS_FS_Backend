@@ -1,5 +1,5 @@
 const http = require("http");
-const app = require("./app/app"); // Correct module import
+const app = require("./app/app");
 require("dotenv").config();
 
 const PORT = process.env.port || 3000; // Default to 3000 if not defined in .env
