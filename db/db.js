@@ -16,7 +16,7 @@ const disconnect = async () => {
 };
 
 const findUser = async (obj) => {
-  User.findOne(obj);
+  return User.findOne(obj).exec();
 };
 
 const saveUser = async (newUser) => {
